@@ -1,13 +1,13 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
-import Navbar from "./components/navbar.component.js"
-import ExercisesList from "./components/exercises-list.component";
-import EditExercise from "./components/edit-exercise.component";
-import CreateExercise from "./components/create-exercise.component";
-import CreateUser from "./components/create-user.component";
+import Navbar from "./components/navbar.js"
+import ExercisesList from "./components/ exercises_list.js";
+import EditExercise from "./components/edit_exercise.js";
+import CreateExercise from "./components/create_exercise.js";
+import CreateUser from "./components/ create_user.js";
 
 function App() {
   return (
